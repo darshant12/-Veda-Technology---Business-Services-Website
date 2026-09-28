@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Veda Technology | Technology Programs, Digital Services & Industrial Internships</title>
+  <meta name="title" content="Veda Technology | Technology Programs, Digital Services & Industrial Internships">
+  <meta name="description" content="Veda Technology is a leading technology and digital services organization offering enterprise software development, cloud solutions, AI/ML systems, industry-aligned training programs, and industrial internships.">
+  <meta name="keywords" content="Veda Technology, Veda Techno, IT services, web development, cloud engineering, devops training, AI data science internship, full stack internship, software development, technology consulting">
+  <meta name="author" content="Veda Technology">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vedatechnology.com/">
+  <meta property="og:title" content="Veda Technology | Next-Gen IT Services & Career Acceleration">
+  <meta property="og:description" content="Empowering businesses with modern enterprise software and training next-generation tech talent through production-grade internships and programs.">
+  <meta property="og:image" content="assets/images/og-preview.png">
+
+  <!-- Twitter Card -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://vedatechnology.com/">
+  <meta property="twitter:title" content="Veda Technology | IT Services & Tech Programs">
+  <meta property="twitter:description" content="Enterprise digital services, professional tech courses, and structured industrial internships.">
+
+  <!-- Favicon (SVG Data URI) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ff5722'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- JSON-LD Structured Data for Organization & Educational Course -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Veda Technology",
+    "url": "https://vedatechnology.com",
+    "logo": "https://vedatechnology.com/assets/images/logo.png",
+    "description": "Premier digital services, enterprise software solutions, and technology education organization.",
+    "sameAs": [
+      "https://linkedin.com/company/vedatechnology",
+      "https://github.com/vedatechnology",
+      "https://twitter.com/vedatechnology"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-98765-43210",
+      "contactType": "Customer Support",
+      "email": "contact@vedatechnology.com"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ========================================================================
+       Header & Navigation
+       ======================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container navbar">
+      <!-- Brand Logo -->
+      <a href="#home" class="brand-logo" aria-label="Veda Technology Home">
+        <div class="brand-icon-wrapper">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </div>
+        <span class="brand-text">VEDA<span>TECH</span></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#programs" class="nav-link">Programs</a>
+        <a href="#services" class="nav-link">IT Services</a>
+        <a href="#internships" class="nav-link">Internships</a>
+        <a href="#faqs" class="nav-link">FAQs</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Action Tools (Spotlight Search, Theme Switcher, CTA, Mobile Toggle) -->
+      <div class="nav-actions">
+        <!-- Spotlight Search Trigger -->
+        <button class="btn-icon" id="spotlight-trigger" title="Quick Search (Ctrl+K)" aria-label="Quick Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+
+        <!-- Dark/Light Mode Switcher -->
+        <button class="btn-icon" id="theme-toggle" title="Toggle Theme" aria-label="Toggle Dark and Light Mode">
+          <!-- Populated by JS -->
+        </button>
+
+        <!-- CTA Button -->
+        <a href="#contact" class="btn btn-primary btn-sm" style="display: none; @media(min-width: 640px){display: inline-flex;}">
+          Get in Touch
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation drawer" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-label="Mobile Navigation">
+    <div class="mobile-nav-list">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About Veda</a>
+      <a href="#programs" class="nav-link">Technology Programs</a>
+      <a href="#services" class="nav-link">IT & Digital Services</a>
+      <a href="#internships" class="nav-link">Internship Pathways</a>
+      <a href="#faqs" class="nav-link">Frequently Asked Questions</a>
+      <a href="#contact" class="nav-link">Contact & Location</a>
+    </div>
+    <div style="margin-top: auto; display: flex; flex-direction: column; gap: 0.75rem;">
+      <a href="#programs" class="btn btn-primary" style="width: 100%;">Explore Courses</a>
+      <a href="#contact" class="btn btn-secondary" style="width: 100%;">Contact Support</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ========================================================================
+         1. Hero Section
+         ======================================================================== -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Hero Left Column: Copy & CTAs -->
+          <div>
+            <div class="hero-badge">
+              <span class="hero-badge-dot"></span>
+              <span>Next-Gen IT Services & Tech Career Accelerator</span>
+            </div>
+
+            <h1 class="hero-title">
+              Transforming Ideas into <span class="gradient-text">Digital Reality</span> & Engineering Modern Careers
+            </h1>
+
+            <p class="hero-description">
+              Veda Technology delivers robust enterprise software, scalable cloud infrastructure, and AI solutions while mentoring high-caliber engineers through intensive industry training and production internships.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#programs" class="btn btn-primary btn-lg">
+                <span>Explore Programs</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+              <a href="#services" class="btn btn-secondary btn-lg">
+                <span>Enterprise Services</span>
+              </a>
+            </div>
+
+            <!-- Trust Highlights -->
+            <div style="display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--text-secondary);">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent-emerald)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Live Project Experience</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--text-secondary);">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent-emerald)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Verified Certifications</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--text-secondary);">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent-emerald)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Enterprise SLA Delivery</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Right Column: Interactive Tech Visual / Terminal Card -->
+          <div class="hero-visual-card">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="terminal-dot dot-red"></span>
+                <span class="terminal-dot dot-yellow"></span>
+                <span class="terminal-dot dot-green"></span>
+              </div>
+              <div class="terminal-title">veda-engine // active-build</div>
+              <div style="font-size: 0.75rem; color: var(--accent-emerald); font-weight: 600; display: flex; align-items: center; gap: 4px;">
+                <span style="width: 6px; height: 6px; border-radius: 50%; background: var(--accent-emerald); display: inline-block;"></span> Live v2.4
+              </div>
+            </div>
+
+            <!-- Code Simulation Window -->
+            <div class="code-display">
+              <span class="code-line"><span class="code-comment">// Initialize Veda Core Architecture</span></span>
+              <span class="code-line"><span class="code-keyword">import</span> { EnterpriseApp, CloudMesh, AIDataEngine } <span class="code-keyword">from</span> <span class="code-str">'@veda/core'</span>;</span>
+              <span class="code-line">&nbsp;</span>
+              <span class="code-line"><span class="code-keyword">const</span> service = <span class="code-keyword">new</span> <span class="code-func">EnterpriseApp</span>({</span>
+              <span class="code-line">&nbsp;&nbsp;platform: <span class="code-str">'Scalable Full-Stack Architecture'</span>,</span>
+              <span class="code-line">&nbsp;&nbsp;cloud: [<span class="code-str">'AWS'</span>, <span class="code-str">'Kubernetes'</span>, <span class="code-str">'Docker'</span>],</span>
+              <span class="code-line">&nbsp;&nbsp;intelligence: <span class="code-str">'GenAI & Predictive ML Ops'</span>,</span>
+              <span class="code-line">&nbsp;&nbsp;uptimeGuarantee: <span class="code-str">'99.99%'</span></span>
+              <span class="code-line">});</span>
+              <span class="code-line">&nbsp;</span>
+              <span class="code-line"><span class="code-keyword">await</span> service.<span class="code-func">deployProduction</span>(); <span class="code-comment">// Status: Active & Secured</span></span>
+            </div>
+
+            <!-- Mini Live Indicators -->
+            <div class="hero-mini-stats-grid">
+              <div class="mini-stat-card">
+                <div class="mini-stat-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                </div>
+                <div>
+                  <div class="mini-stat-val">99.98%</div>
+                  <div class="mini-stat-lbl">System Uptime</div>
+                </div>
+              </div>
+
+              <div class="mini-stat-card">
+                <div class="mini-stat-icon" style="background: rgba(255, 152, 0, 0.15); color: var(--accent-cyan);">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                </div>
+                <div>
+                  <div class="mini-stat-val">15,000+</div>
+                  <div class="mini-stat-lbl">Talent Alumni</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Animated Stats Counter Banner -->
+        <div class="stats-banner" id="stats">
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-number-wrapper">
+                <span class="stat-count" data-target="15000">0</span>
+                <span class="stat-suffix">+</span>
+              </div>
+              <div class="stat-label">Students & Interns Trained</div>
+            </div>
+
+            <div class="stat-item">
+              <div class="stat-number-wrapper">
+                <span class="stat-count" data-target="180">0</span>
+                <span class="stat-suffix">+</span>
+              </div>
+              <div class="stat-label">Enterprise Projects Delivered</div>
+            </div>
+
+            <div class="stat-item">
+              <div class="stat-number-wrapper">
+                <span class="stat-count" data-target="65">0</span>
+                <span class="stat-suffix">+</span>
+              </div>
+              <div class="stat-label">Industry & Hiring Partners</div>
+            </div>
+
+            <div class="stat-item">
+              <div class="stat-number-wrapper">
+                <span class="stat-count" data-target="96">0</span>
+                <span class="stat-suffix">%</span>
+              </div>
+              <div class="stat-label">Placement & Career Success</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         2. Tech Stack Ticker / Industry Tools
+         ======================================================================== -->
+    <div class="ticker-wrap" aria-label="Technologies and Frameworks">
+      <div class="ticker-heading">Powered by Modern Industry Stacks & Cloud Ecosystems</div>
+      <div class="ticker-track" id="tech-ticker-track">
+        <!-- Injected dynamically by main.js -->
+      </div>
+    </div>
+
+    <!-- ========================================================================
+         3. About Veda Technology Section
+         ======================================================================== -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">About Organization</div>
+          <h2 class="section-title">Pioneering Digital Solutions & Tech Talent Development</h2>
+          <p class="section-subtitle">
+            Veda Technology operates at the intersection of enterprise digital transformation and hands-on developer mentorship. We bridge the critical gap between academic theory and real-world engineering standards.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Story & Key Highlights -->
+          <div class="about-content-block">
+            <h3>Engineering Excellence & Empowering Careers</h3>
+            <p style="margin-bottom: 1rem;">
+              Founded with the objective of providing world-class technology services and fostering high-performing engineering talent, Veda Technology has grown into a trusted partner for emerging startups, enterprise businesses, and ambitious tech learners.
+            </p>
+            <p>
+              Whether developing fault-tolerant cloud architectures, building custom web platforms, or conducting intensive internship bootcamps, our commitment remains constant: precision, modern best practices, and measurable outcomes.
+            </p>
+
+            <div class="about-features-list">
+              <div class="about-feature-item">
+                <div class="feature-icon-badge">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                </div>
+                <div class="feature-info">
+                  <h4>Real-World Production Methodologies</h4>
+                  <p>Students and engineering teams follow Agile sprints, code reviews, automated CI/CD pipelines, and microservice standards.</p>
+                </div>
+              </div>
+
+              <div class="about-feature-item">
+                <div class="feature-icon-badge">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                </div>
+                <div class="feature-info">
+                  <h4>Industry-Recognized Certifications</h4>
+                  <p>Digitally verifiable credentials endorsed by hiring partners and industry experts upon capstone evaluation.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Mission & Vision Cards -->
+          <div class="about-vision-grid">
+            <div class="vision-card">
+              <div style="width: 48px; height: 48px; border-radius: var(--radius-md); background: var(--primary-light); color: var(--primary); display: flex; align-items: center; justify-content: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+              </div>
+              <h4>Our Mission</h4>
+              <p>To provide organizations with agile, cost-effective digital software solutions while democratizing access to elite technology education and practical career mentorship.</p>
+            </div>
+
+            <div class="vision-card">
+              <div style="width: 48px; height: 48px; border-radius: var(--radius-md); background: rgba(255, 152, 0, 0.15); color: var(--accent-cyan); display: flex; align-items: center; justify-content: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              </div>
+              <h4>Our Vision</h4>
+              <p>To become a globally recognized center of engineering excellence, shaping the next generation of software innovators and technology leaders.</p>
+            </div>
+
+            <div class="vision-card">
+              <div style="width: 48px; height: 48px; border-radius: var(--radius-md); background: rgba(255, 87, 34, 0.15); color: var(--primary); display: flex; align-items: center; justify-content: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <h4>Core Values</h4>
+              <p>Transparency, practical hands-on mastery, ethical engineering, client-centric dedication, and continuous lifelong learning.</p>
+            </div>
+
+            <div class="vision-card">
+              <div style="width: 48px; height: 48px; border-radius: var(--radius-md); background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald); display: flex; align-items: center; justify-content: center;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              </div>
+              <h4>Impact Guarantee</h4>
+              <p>Over 15,000 students and professionals transformed with 96% placement and transition success across tech verticals.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. Technology Programs & Training Section
+         ======================================================================== -->
+    <section class="section" id="programs">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Learning & Development</div>
+          <h2 class="section-title">Industry-Aligned Technology Programs</h2>
+          <p class="section-subtitle">
+            Comprehensive curriculum engineered with industry practitioners. Gain real-world software engineering competencies through structured capstone projects and live labs.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs" id="programs-filter">
+          <button class="filter-tab active" data-filter="all">All Programs</button>
+          <button class="filter-tab" data-filter="web-dev">Full-Stack Web</button>
+          <button class="filter-tab" data-filter="cloud-devops">Cloud & DevOps</button>
+          <button class="filter-tab" data-filter="ai-data">AI & Data Science</button>
+          <button class="filter-tab" data-filter="security">Cybersecurity</button>
+          <button class="filter-tab" data-filter="mobile">Mobile App Dev</button>
+        </div>
+
+        <!-- Dynamic Program Cards Grid -->
+        <div class="cards-grid" id="programs-grid">
+          <!-- Populated by JavaScript from VEDA_DATA -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         5. IT & Digital Services Section
+         ======================================================================== -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Enterprise Capabilities</div>
+          <h2 class="section-title">IT & Digital Transformation Services</h2>
+          <p class="section-subtitle">
+            End-to-end technology solutions to accelerate your digital maturity, automate complex operations, and build high-performance products.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs" id="services-filter">
+          <button class="filter-tab active" data-filter="all">All Services</button>
+          <button class="filter-tab" data-filter="software-dev">Custom Software</button>
+          <button class="filter-tab" data-filter="cloud-infra">Cloud & DevOps</button>
+          <button class="filter-tab" data-filter="ai-solutions">AI & Data</button>
+          <button class="filter-tab" data-filter="design">UI/UX Design</button>
+          <button class="filter-tab" data-filter="security">Cyber Security</button>
+          <button class="filter-tab" data-filter="consulting">IT Consulting</button>
+        </div>
+
+        <!-- Dynamic Services Grid -->
+        <div class="cards-grid" id="services-grid">
+          <!-- Populated by JavaScript from VEDA_DATA -->
+        </div>
+
+        <!-- Service Delivery Workflow -->
+        <div class="process-section">
+          <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+            <h3 style="font-size: 1.75rem; margin-bottom: 0.5rem;">Our Agile Delivery Process</h3>
+            <p style="font-size: 0.95rem; color: var(--text-muted);">From concept inception to cloud deployment and ongoing maintenance.</p>
+          </div>
+
+          <div class="process-grid">
+            <div class="process-step">
+              <div class="step-num">01</div>
+              <h4>Discovery & Scoping</h4>
+              <p>In-depth architectural analysis, requirements specification, tech stack selection, and delivery milestones roadmap.</p>
+            </div>
+
+            <div class="process-step">
+              <div class="step-num">02</div>
+              <h4>Architecture & UI/UX</h4>
+              <p>Interactive wireframes, user journeys, database schemas, and microservice architectural blueprints.</p>
+            </div>
+
+            <div class="process-step">
+              <div class="step-num">03</div>
+              <h4>Agile Sprint Cycles</h4>
+              <p>Bi-weekly sprint iterations, continuous integration testing, code reviews, and transparent sprint demos.</p>
+            </div>
+
+            <div class="process-step">
+              <div class="step-num">04</div>
+              <h4>Deploy & Support</h4>
+              <p>Automated zero-downtime cloud deployment, security hardening, monitoring setup, and post-launch SLA support.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         6. Internship & Industrial Training Hub
+         ======================================================================== -->
+    <section class="section" id="internships">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Career Accelerator</div>
+          <h2 class="section-title">Industrial Internship Pathways</h2>
+          <p class="section-subtitle">
+            Bridge academia and industry with structured, project-driven internships. Work on live codebases, collaborate with senior leads, and qualify for Pre-Placement Offers.
+          </p>
+        </div>
+
+        <!-- Highlights & Perks Banner -->
+        <div class="internship-banner">
+          <div>
+            <h3 style="font-size: 1.85rem; margin-bottom: 1rem;">Why Intern at Veda Technology?</h3>
+            <p style="margin-bottom: 1.5rem; color: var(--text-secondary);">
+              Our internships are engineered to simulate the actual day-to-day workflow of top-tier technology companies. No busywork—only production-grade code, architectural reviews, and tangible deliverables.
+            </p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <a href="#contact" class="btn btn-primary btn-sm">Request Information</a>
+              <a href="#faqs" class="btn btn-secondary btn-sm">Read Internship FAQs</a>
+            </div>
+          </div>
+
+          <div class="internship-perks-grid">
+            <div class="internship-perk-card">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span style="font-size: 0.85rem; font-weight: 600;">Live Sprint Experience</span>
+            </div>
+            <div class="internship-perk-card">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span style="font-size: 0.85rem; font-weight: 600;">1-on-1 Lead Mentorship</span>
+            </div>
+            <div class="internship-perk-card">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+              <span style="font-size: 0.85rem; font-weight: 600;">Stipend Opportunities</span>
+            </div>
+            <div class="internship-perk-card">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+              <span style="font-size: 0.85rem; font-weight: 600;">Verified Digital Credential</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Available Internship Tracks Grid -->
+        <div class="cards-grid" id="internships-grid">
+          <!-- Populated by JavaScript from VEDA_DATA -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         7. Testimonials & Client Reviews
+         ======================================================================== -->
+    <section class="section section-alt" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Success Stories</div>
+          <h2 class="section-title">What Our Alumni & Clients Say</h2>
+          <p class="section-subtitle">
+            Real feedback from graduates who transitioned into top engineering roles and business partners who scaled with our software solutions.
+          </p>
+        </div>
+
+        <div class="cards-grid" id="testimonials-grid">
+          <!-- Populated by JavaScript from VEDA_DATA -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         8. FAQ Section
+         ======================================================================== -->
+    <section class="section" id="faqs">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Got Questions?</div>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">
+            Find immediate answers regarding our programs, corporate services, internship requirements, and career assistance.
+          </p>
+        </div>
+
+        <div class="faq-container">
+          <!-- FAQ Search Filter Input -->
+          <div class="faq-search-wrapper">
+            <svg class="faq-search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="faq-search" class="faq-search-input" placeholder="Search questions (e.g. 'placement', 'internship duration', 'services')...">
+          </div>
+
+          <!-- FAQ Filter Tabs -->
+          <div class="filter-tabs" id="faq-filter" style="margin-bottom: 2rem;">
+            <button class="filter-tab active" data-filter="all">All FAQs</button>
+            <button class="filter-tab" data-filter="general">General</button>
+            <button class="filter-tab" data-filter="programs">Programs</button>
+            <button class="filter-tab" data-filter="internships">Internships</button>
+            <button class="filter-tab" data-filter="services">Services</button>
+          </div>
+
+          <!-- FAQ Accordion List -->
+          <div class="accordion-list" id="faq-accordion-list">
+            <!-- Populated by JavaScript from VEDA_DATA -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         9. Contact & Consultation Section
+         ======================================================================== -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Connect With Us</div>
+          <h2 class="section-title">Start Your Project or Career Journey</h2>
+          <p class="section-subtitle">
+            Have an engineering project in mind, need custom IT consulting, or seeking details about our upcoming program cohorts? Send us a message and our team will get back to you promptly.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Contact Cards & Info -->
+          <div class="contact-info-cards">
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div>
+                <h4 style="font-size: 1.1rem; margin-bottom: 0.25rem;">Corporate Headquarters</h4>
+                <p style="font-size: 0.9rem; color: var(--text-secondary);">Tech Innovation Park, Sector 62, Electronic City, Bengaluru, Karnataka 560100</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div>
+                <h4 style="font-size: 1.1rem; margin-bottom: 0.25rem;">Direct Email</h4>
+                <p style="font-size: 0.9rem;"><a href="mailto:contact@vedatechnology.com" style="color: var(--primary); font-weight: 600;">contact@vedatechnology.com</a></p>
+                <p style="font-size: 0.8rem; color: var(--text-muted);">Careers: careers@vedatechnology.com</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div>
+                <h4 style="font-size: 1.1rem; margin-bottom: 0.25rem;">Phone & Support</h4>
+                <p style="font-size: 0.9rem; color: var(--text-secondary); font-weight: 600;">+91 (080) 4567-8900 / +91 98765-43210</p>
+                <p style="font-size: 0.8rem; color: var(--text-muted);">Mon - Sat: 9:00 AM - 7:00 PM IST</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Contact Form -->
+          <div class="contact-form-wrapper">
+            <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">Send an Inquiry</h3>
+            <form id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Full Name *</label>
+                  <input type="text" id="contact-name" class="form-input" placeholder="e.g. Rahul Sharma" required>
+                  <div class="form-error-msg">Please enter your full name</div>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">Email Address *</label>
+                  <input type="email" id="contact-email" class="form-input" placeholder="rahul@example.com" required>
+                  <div class="form-error-msg">Please enter a valid email address</div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-phone" class="form-label">Phone Number *</label>
+                  <input type="tel" id="contact-phone" class="form-input" placeholder="+91 98765 43210" required>
+                  <div class="form-error-msg">Please enter a valid phone number</div>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-interest" class="form-label">Area of Interest *</label>
+                  <select id="contact-interest" class="form-select" required>
+                    <option value="" disabled selected>Select an option...</option>
+                    <option value="Enterprise Custom Software">Enterprise Custom Software</option>
+                    <option value="Cloud Infrastructure & DevOps">Cloud Infrastructure & DevOps</option>
+                    <option value="AI & GenAI Solutions">AI & GenAI Solutions</option>
+                    <option value="Full-Stack Web Development Course">Full-Stack Web Development Course</option>
+                    <option value="Cloud & DevOps Masterclass">Cloud & DevOps Masterclass</option>
+                    <option value="AI & Data Science Program">AI & Data Science Program</option>
+                    <option value="Industrial Internship Application">Industrial Internship Application</option>
+                    <option value="Corporate Upskilling">Corporate Upskilling</option>
+                  </select>
+                  <div class="form-error-msg">Please select an area of interest</div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Your Message / Project Details *</label>
+                <textarea id="contact-message" class="form-textarea" rows="4" placeholder="Tell us about your project requirements, career goals, or timeline..." required></textarea>
+                <div class="form-error-msg">Please enter your message</div>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Submit Inquiry</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Summary Column -->
+        <div class="footer-brand-col">
+          <a href="#home" class="brand-logo" style="margin-bottom: 1rem;">
+            <div class="brand-icon-wrapper">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <span class="brand-text">VEDA<span>TECH</span></span>
+          </a>
+          <p>
+            Veda Technology is a premier technology innovation organization delivering scalable enterprise software, cloud infrastructure, AI solutions, and industry-grade engineering training.
+          </p>
+          <div class="social-links-row">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Twitter">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#about" class="footer-link">About Veda</a></li>
+            <li><a href="#programs" class="footer-link">Tech Programs</a></li>
+            <li><a href="#services" class="footer-link">IT Services</a></li>
+            <li><a href="#internships" class="footer-link">Internship Hub</a></li>
+            <li><a href="#faqs" class="footer-link">FAQs & Support</a></li>
+            <li><a href="#contact" class="footer-link">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Programs Directory -->
+        <div>
+          <h4 class="footer-heading">Programs</h4>
+          <ul class="footer-links">
+            <li><a href="#programs" class="footer-link">Full-Stack Web Dev</a></li>
+            <li><a href="#programs" class="footer-link">Cloud & DevOps</a></li>
+            <li><a href="#programs" class="footer-link">AI & Data Science</a></li>
+            <li><a href="#programs" class="footer-link">Cybersecurity Defense</a></li>
+            <li><a href="#programs" class="footer-link">Mobile App Dev</a></li>
+            <li><a href="#programs" class="footer-link">Backend Systems</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Subscription -->
+        <div>
+          <h4 class="footer-heading">Tech Insights Newsletter</h4>
+          <p style="font-size: 0.875rem; color: var(--text-muted); margin-bottom: 1rem;">
+            Subscribe to our weekly curated engineering digest, tech guides, and cohort updates.
+          </p>
+          <form id="newsletter-form" style="display: flex; gap: 0.5rem; flex-direction: column;">
+            <input type="email" class="form-input" placeholder="Your email address" required style="font-size: 0.875rem;">
+            <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Veda Technology. All rights reserved. Built for engineering & business excellence.
+        </div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#about" style="color: var(--text-muted); font-size: 0.85rem;">Privacy Policy</a>
+          <a href="#about" style="color: var(--text-muted); font-size: 0.85rem;">Terms of Service</a>
+          <a href="#contact" style="color: var(--text-muted); font-size: 0.85rem;">Security Compliance</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       Global Modals & Overlays
+       ======================================================================== -->
+
+  <!-- 1. Spotlight Search Modal (Ctrl+K) -->
+  <div class="modal-overlay" id="spotlight-modal" role="dialog" aria-modal="true" aria-labelledby="spotlight-input">
+    <div class="modal-container spotlight-modal">
+      <div class="spotlight-search-header">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="spotlight-input" class="spotlight-input" placeholder="Search courses, services, internships, FAQs (ESC to close)..." autofocus>
+        <button class="modal-close-btn" id="spotlight-close" aria-label="Close search">&times;</button>
+      </div>
+      <div class="spotlight-results" id="spotlight-results">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Program Syllabus Details Modal -->
+  <div class="modal-overlay" id="syllabus-modal" role="dialog" aria-modal="true" aria-labelledby="syllabus-title">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title" id="syllabus-title">Program Syllabus</h3>
+        <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body" id="syllabus-body">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Application & Project Inquiry Modal -->
+  <div class="modal-overlay" id="app-modal" role="dialog" aria-modal="true" aria-labelledby="app-modal-title">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title" id="app-modal-title">Submit Application / Inquiry</h3>
+        <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form id="app-form" novalidate>
+          <div class="form-group">
+            <label for="app-interest-select" class="form-label">Selected Offering</label>
+            <input type="text" id="app-interest-select" class="form-input" readonly style="background: var(--bg-tertiary);">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="app-name" class="form-label">Full Name *</label>
+              <input type="text" id="app-name" class="form-input" placeholder="Enter your full name" required>
+              <div class="form-error-msg">Name is required</div>
+            </div>
+            <div class="form-group">
+              <label for="app-email" class="form-label">Email Address *</label>
+              <input type="email" id="app-email" class="form-input" placeholder="name@example.com" required>
+              <div class="form-error-msg">Valid email is required</div>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="app-phone" class="form-label">Phone / WhatsApp *</label>
+              <input type="tel" id="app-phone" class="form-input" placeholder="+91 98765 43210" required>
+              <div class="form-error-msg">Valid phone number is required</div>
+            </div>
+            <div class="form-group">
+              <label for="app-exp" class="form-label">Current Status</label>
+              <select id="app-exp" class="form-select">
+                <option value="Student / Final Year">Student / Final Year</option>
+                <option value="Recent Graduate">Recent Graduate</option>
+                <option value="Working Professional">Working Professional</option>
+                <option value="Business / Enterprise Client">Business / Enterprise Client</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="app-notes" class="form-label">Additional Notes / Resume or Portfolio Link (Optional)</label>
+            <textarea id="app-notes" class="form-textarea" rows="3" placeholder="Paste your LinkedIn/GitHub URL or briefly describe your goals..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Confirm & Submit Application</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
